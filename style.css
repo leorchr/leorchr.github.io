@@ -1,0 +1,26 @@
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 120px;
+    text-align: center;
+} 
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+
+@media (max-width: 768px) {
+    h1{
+        color: rgb(0, 0, 0);
+        font-size: 60px;
+        text-align: center;
+    } 
+    
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+      }
+}
